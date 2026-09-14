@@ -1,11 +1,18 @@
-const freeSummaries = 5
-const remainingSummaries = 0 
-console.log(freeSummaries - remainingSummaries);
+function remainingSummaries(used) { 
+  return 5 - used; 
+} 
+ 
+console.log(remainingSummaries(0));
 
-const FreeSummaries = 5
-const remainingSummariesUsed = 2 
-console.log(FreeSummaries - remainingSummariesUsed);
 
-const freesummaries = 5
-const remainingsummaries = 5
-console.log(freesummaries - remainingsummaries);
+function remainingSummaries(used) { 
+  return 5 - used; 
+} 
+ 
+console.log(remainingSummaries(2));
+
+function remainingSummaries(used) { 
+  return 5 - used; 
+} 
+ 
+console.log(remainingSummaries(5));

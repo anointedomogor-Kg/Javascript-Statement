@@ -1,11 +1,17 @@
-const freeLimit = 5
-const summariesUsed = 4
-console.log(summariesUsed < freeLimit);
+function Summaries(used) { 
+  return 5 > used; 
+} 
+ 
+console.log(Summaries(4));
 
-const canSummarize = 5
-const summariesused = 5
-console.log(summariesused < summariesused);
+function Summaries(used) { 
+  return 5 > used; 
+} 
+ 
+console.log(Summaries(5));
 
-const Limit = 5
-const SummariesUsed = 6
-console.log(Limit > SummariesUsed);
+function Summaries(used) { 
+  return 5 > used; 
+} 
+ 
+console.log(Summaries(6));

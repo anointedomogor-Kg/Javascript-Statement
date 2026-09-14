@@ -1,2 +1,3 @@
-let summariesUsed = 2
-console.log(summariesUsed + 1);
+let summariesUsed= 2;
+let aftersummary = summariesUsed + 1;
+console.log(aftersummary);
